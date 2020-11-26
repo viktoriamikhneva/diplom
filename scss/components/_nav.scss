@@ -1,0 +1,29 @@
+nav {
+	text-align: center;
+}
+   
+
+nav li {
+display: inline-flex;
+
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: $white;
+	font-weight: 500;
+ padding: 13px 19px 11px 20px;
+border:2px solid transparent;
+	&:hover {
+		color: $blue;
+		border: 2px solid $blue;
+		text-decoration: none;
+		
+	}
+}
+	
+	
+ul {
+	list-style-type: none; 		
+}

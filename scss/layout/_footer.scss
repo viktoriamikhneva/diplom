@@ -1,0 +1,42 @@
+.footer {
+	background-color: $darkgray;
+	padding: 70px 0;
+	color: $bgray;
+
+	.nav {
+		display: flex;
+		justify-content: space-between;
+text-align: center;
+		 li {
+		 	display: inline-flex;
+		 	align-self: center;
+		 &::after{
+            content: '|';
+             margin: 0 10px;
+		 	
+		 	}
+		 }
+	}
+}
+
+  .nav a {
+		color: $bgray;
+		text-transform: uppercase;
+		font-weight: bold;
+		padding: 0;
+		border:none;
+		
+		&:hover {
+			text-decoration: none;
+			border: none;
+			color: $darkgray;
+		}
+		}
+
+		.sub {
+			font-weight: bold;
+		}
+
+		ul {
+			padding: 0;
+		}
